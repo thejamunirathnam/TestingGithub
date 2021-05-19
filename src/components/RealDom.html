@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> Real Dom </h2>
+<p id="demo"></p>
+
+<script>
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var element = `<h1>Hello Real DOM</h1>`;
+      element += `<h2>Now time is </h2>`;
+      element += `<p>`+new Date()+`</p>`;
+      document.getElementById("demo").innerHTML = element;
+}
+window.setIInterval(myTimer,1000);
+</script>
+
+</body>
+</html>
