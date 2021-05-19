@@ -18,6 +18,7 @@ export class Cr extends Component {
 
 
         // let message
+        //githubb
         // if(this.state.isLogedin){
         //     message=  <h2>hello Bridgelbz</h2>
         // }else{
